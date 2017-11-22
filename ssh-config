@@ -1,0 +1,13 @@
+Host * 
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa
+
+Host caen
+	Hostname login.engin.umich.edu
+	Port 22
+	User ellish
+
+Host github
+	Hostname github.com
+	user git
